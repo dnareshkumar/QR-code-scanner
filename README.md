@@ -1,2 +1,2 @@
 # QR-code-scanner
-file:///C:/Users/Naresh/Downloads/qr-code-component-main/qr-code-component-main/images/image-qr-code.png
+![image-qr-code](https://user-images.githubusercontent.com/86918405/190899747-e23b613e-42c1-4f2f-bd82-ff91f1ae3502.png)

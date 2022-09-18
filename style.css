@@ -1,0 +1,49 @@
+@import url("https://fonts.gooogleapis.com/css?family=Open+Sans&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #222457;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.phone {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    height: 600px;
+    width: 440px;
+    padding:20px 20px;
+    background-color:white;
+ 
+}
+.phone {
+    text-align:center;
+}
+
+.phone .content { 
+    opacity: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100% - 60px);
+    width: 100%;
+    transition: opacity 0.4s ease;
+}
+.phone .content.show {
+    opacity: 1;
+}
+.one{
+    width:400px;
+    height:400px;
+    transition: opacity 0.4s ease;
+    border-radius: 15px;
+}
+h1 {padding:5px 0; font-family:verdana; font-weight:700;}
